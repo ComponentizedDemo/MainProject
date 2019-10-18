@@ -1,23 +1,26 @@
 PODS:
-  - A_Category (1):
+  - A_Category (1.0.0):
+    - CTMediator
+  - B_Category (1.1):
     - CTMediator
   - CTMediator (25)
 
 DEPENDENCIES:
-  - A_Category (from `../A_Category`)
+  - A_Category
+  - B_Category
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
+    - B_Category
     - CTMediator
-
-EXTERNAL SOURCES:
-  A_Category:
-    :path: "../A_Category"
+  https://github.com/ComponentizedDemo/PrivatePods.git:
+    - A_Category
 
 SPEC CHECKSUMS:
-  A_Category: 81303d419defc389006ad7a9cd551f435663938c
+  A_Category: a7998b0235667b072fcea32af506a49bbd21fea3
+  B_Category: d643bbbb97fcb1271c9f298a762a385d1c3e7bf9
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
 
-PODFILE CHECKSUM: 22664ee98ac544e65ff303f567a656d21bb06653
+PODFILE CHECKSUM: 505cdb72242f2782569997c524da1098351168c1
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4
