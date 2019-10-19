@@ -1,5 +1,7 @@
-#MainProject.xcodeproj/xcuserdata/
-#MainProject.xcworkspace/
-#Pods/
-#*.swp
-#MainProject.xcodeproj/project.xcworkspace/xcuserdata/
+MainProject.xcodeproj/xcuserdata/
+MainProject.xcworkspace/
+MainProject.xcworkspace/xcuserdata/
+Pods/
+*.swp
+MainProject.xcodeproj/project.xcworkspace/xcuserdata/
+
