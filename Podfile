@@ -11,5 +11,6 @@ target 'MainProject' do
   # Pods for MainProject
 pod 'A_Category'
 pod 'B_Category'
+pod 'A'
 
 end
